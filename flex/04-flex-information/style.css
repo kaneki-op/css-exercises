@@ -11,6 +11,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -28,9 +29,12 @@ img {
 
 .container,.text {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content:center;
   text-align: center;
-  gap: 20px;
+  gap: 52px;
   text-wrap: wrap;
+}
+
+.info {
+  max-width: 200px;
 }
